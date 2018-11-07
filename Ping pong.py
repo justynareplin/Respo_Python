@@ -70,7 +70,6 @@ ball.goto(0,0)
 ball.dx =0.2  #  how many pixels ball moves (every time)
 ball.dy =0.2
 
-
 # score
 gamerscore_1 =0
 gamerscore_2 =0
@@ -83,8 +82,6 @@ pen.penup()
 pen.hideturtle()
 pen.goto(0,260)
 pen.write("Player 1:0   Player 2:0".format(gamerscore_1,gamerscore_2), align="center",font=("Courier", 24,"normal"))
-
-
 
 #main game loop
 while True:
@@ -130,7 +127,6 @@ while True:
         winsound.PlaySound("bounce.mp3", winsound.SND_ASYNC)
         ball.setx(340)
         ball.dx *=-1
-
 
     if (ball.xcor() <-340 and ball.xcor() > -350) and (ball.ycor()< paddle_a.ycor() +40 and ball.ycor()>paddle_a.ycor() -40):
         winsound.PlaySound("bounce.mp3", winsound.SND_ASYNC)
