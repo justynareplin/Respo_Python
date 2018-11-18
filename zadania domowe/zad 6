@@ -1,6 +1,6 @@
 
-def srednia(a):
-    srednia = sum(a) / len(a)
+def srednia(x):
+    srednia = sum(x) / len(x)
     return srednia
 
 
