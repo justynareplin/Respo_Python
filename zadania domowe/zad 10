@@ -5,4 +5,4 @@ def zwroclisty(a):
         print(b)
         i+=1
 
-zwroclisty([2,3])
+zwroclisty([2,,4,9,3])
