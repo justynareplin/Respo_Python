@@ -1,0 +1,7 @@
+
+def srednia(a):
+    srednia = sum(a) / len(a)
+    return srednia
+
+
+srednia([3, 4, 4, 5])
