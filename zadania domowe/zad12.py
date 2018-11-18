@@ -1,6 +1,6 @@
-def alfabet(a):
-    words=a.split(" ")
-    words= sorted(list(set(words))) # sorted- posortowane   set - bez powtorzen
-    print(words)
+def alfabetyczniebezpowtorzen(a):
+    words = a.split(" ")
+    words = sorted(list(set(words)))
+    print(" ".join(words))
 
-alfabet("nie było jeszcze żadnego krSzewu polnego na ziemi ani")
+alfabetyczniebezpowtorzen("nie było jeszcze żadnego krzewu polnego na ziemi ani żadna trawa polna jeszcze nie wzeszła i nie było człowieka by uprawiał ziemię")
