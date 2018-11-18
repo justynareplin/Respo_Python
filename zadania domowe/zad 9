@@ -1,6 +1,6 @@
 def palindrom(zdanie):
     zdaniemalymi = zdanie.lower()
-    b = list(zdaniemalymi
+    b = list(zdaniemalymi)
     while b.count(' ') > 0:
         b.remove(' ')
     while b.count('.') > 0:
