@@ -1,0 +1,5 @@
+def zrobzdanie(slowo1, slowo2, slowo3, slowo4):
+    zdanie = slowo1.capitalize() + ' ' + slowo2 + ' ' + slowo3 + ' ' + slowo4 + '.'
+    print(zdanie)
+
+zrobzdanie("ala", "ma", "czarnego", "kota")
